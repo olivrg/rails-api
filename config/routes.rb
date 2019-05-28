@@ -15,6 +15,7 @@ Rails.application.routes.draw do
           get :profile
         end
       end
+      resources :drops, only: [:index, :show]
     end
   end
 end

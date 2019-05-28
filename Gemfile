@@ -33,6 +33,7 @@ gem 'sendgrid', '~> 1.2.4'
 
 group :development, :test do
   gem 'bullet', '~> 5.7.5'
+  gem 'dotenv-rails', '~> 2.1', '>= 2.1.1'
   gem 'factory_bot_rails', '~> 4.8.2'
   gem 'pry-byebug', '~> 3.3.0', platform: :mri
   gem 'rspec-rails', '~> 3.8.0'
@@ -64,4 +65,4 @@ group :assets do
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
-gem 'tzinfo-data', platforms: %i(mingw mswin x64_mingw jruby)
+gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
